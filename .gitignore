@@ -1,0 +1,32 @@
+# Arquivos de compilação e executáveis
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+*.suo
+
+# Pasta .vs (configurações locais do Visual Studio)
+.vs/
+
+# Pacotes NuGet
+[Pp]ackages/
+*.nupkg
+
+# Arquivos de configuração sensíveis (sugestão)
+appsettings.Development.json
+appsettings.Local.json
+
+# Arquivos de usuário
+*.user
+*.userossc
+*.sln.docstates
+
+# Arquivos de log e temporários
+*.log
+*.tmp
+*.temp
+
+# Pastas de build de projetos .NET Core/5+
+**/bin/
+**/obj/
