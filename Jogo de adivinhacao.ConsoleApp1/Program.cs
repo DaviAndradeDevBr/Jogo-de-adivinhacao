@@ -1,7 +1,10 @@
 ﻿// Objetivos 
+
+// V1
 // 1. Nosso jogo deve aceitar o input do jogador e exibir o valor digitado
 // 2. Nosso jogo deve gerar um numero secreto aleatorio
 // 3. Nosso jogo deve validar a tentativa do jogador e exibir uma mensagem
+// 4. Nosso jogo deve permitir multiplas tentativas
 
 using System;
 using System.Security.Cryptography;
@@ -55,7 +58,7 @@ while (true == true)
         break;
     }
 
-    Console.WriteLine();
+
 }
 
 
